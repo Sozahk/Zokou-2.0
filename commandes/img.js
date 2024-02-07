@@ -4,7 +4,7 @@ const gis = require('async-g-i-s');
 zokou({
   nomCom: "img",
   categorie: "Recherche",
-  reaction: "📷"
+  reaction: "📱"
 },
 async (dest, zk, commandeOptions) => {
   const { repondre, ms, arg } = commandeOptions;
@@ -20,7 +20,7 @@ async (dest, zk, commandeOptions) => {
     const results = await gis(searchTerm);
 
     // Envoyer les 5 premières images trouvées
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 8; i++) {
       zk.sendMessage(dest, { image: { url: results[i].url } }, { quoted: ms });
     }
   } catch (error) {
