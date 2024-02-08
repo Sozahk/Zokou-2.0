@@ -2,10 +2,10 @@ const { zokou } = require('../framework/zokou');
 
 zokou(
 	{
-		pattern: 'clear ?(.*)',
-		fromMe: true,
-		desc: 'delete whatsapp chat',
-		type: 'whatsapp',
+		nomCom:'clear',
+		categorie:'fun',
+		desc:'delete whatsapp chat',
+		reaction:'🗑'
 	},
 	async (message, match) => {
 		await message.clearChat(message.jid)
