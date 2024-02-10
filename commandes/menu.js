@@ -31,7 +31,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*╔═════ •✧✧• ════╗*
+♡╔═════ ♧♧♧♧ ════╗♡
 ┃   *Préfixe* : ${s.PREFIXE}
 ┃   *Owner* : ${s.NOM_OWNER}
 ┃   *Mode* : ${mode}
@@ -40,26 +40,25 @@ const date = moment().format('DD/MM/YYYY');
 ┃   *Heure* : ${temps}
 ┃   *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┃   *Plateforme* : ${os.platform()}
-┃   *Développeurs* : Djalega++ 
-┃  & M๏𝓷keℽ D Lบffy
-*╚═════ •✧✧• ════╝* \n\n`;
+┃   *Développeurs* : Maudia
+♡╚═════ ♧♧♧♧ ════╝♡ \n\n`;
     
 let menuMsg = `
 👋 salut ${nomAuteurMessage} 👋
-Je suis *${s.BOT}*, un bot développé par *La team Zokou*.
+Je suis *${s.BOT}*, un bot développé par *La team maudia*.
 
 *Voici la liste de mes commandes :*
 ◇                             ◇
 `;
 
     for (const cat in coms) {
-        menuMsg += `*╔══✵* *${cat}*  *✵ ══╗*`;
+        menuMsg += `◇╔══♤* *${cat}*  *♤ ══╗◇`;
         for (const cmd of coms[cat]) {
             menuMsg += `
 *✗✪* ${cmd}`;
         }
         menuMsg += `
-*╚════ ✵ ✵ ═══╝* \n`
+◇╚════ ♤ ♤ ═══╝◇ \n`
     }
 
     menuMsg += `
