@@ -68,7 +68,7 @@ Pour utiliser une  commande, tapez  ${prefixe}"nom de la commande"
  
  *『ZokouMD*
                                                 
-*»»————— ★ —————««*
+*»»————— ★ —————««
 `;
 
    var lien = mybotpic();
