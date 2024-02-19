@@ -1,89 +1,53 @@
 const { zokou } = require('../framework/zokou');
 
-//---------------------------------------------------------------------------
-
-zokou({
-            nomCom: "hack",
-            categorie: "prank",
-            reaction: "",
-      },
-
-        async(Void,citel, text) => {
-
-citel.reply("```Injecting malware```")
-
-await sleep(1000)
-
-citel.reply("```Injecting malware \n 0%```")
-
-await sleep(1000)
-
-citel.reply("```Injecting malware \n █ 10%```")
-
-await sleep(1000)
-
-citel.reply("```Injecting malware \n █ █ 20%```")
-
-await sleep(1000)
-
-citel.reply("```Injecting malware \n █ █ █ 30%```")
-
-await sleep(1000)
-
-citel.reply("```Injecting malware \n █ █ █ █ 40%```")
-
-await sleep(1000)
-
-citel.reply("```Injecting malware \n █ █ █ █ █ 50%```")
-
-await sleep(1000)
-
-citel.reply("```Injecting malware \n █ █ █ █ █ █ 60%```")
-
-await sleep(1000)
-
-citel.reply("```Injecting malware \n █ █ █ █ █ █ █ 70%```")
-
-await sleep(1000)
-
-citel.reply("```Injecting malware \n █ █ █ █ █ █ █ █ 80%```")
-
-await sleep(1000)
-
-citel.reply("```Injecting malware \n █ █ █ █ █ █ █ █ █ 90%```")
-
-await sleep(1000)
-
-citel.reply("```Injecting malware \n █ █ █ █ █ █ █ █ █ █ 100%```")
-
-await sleep(1000)
-
-citel.reply("```System hyjacking on process.. \n Conecting to Server error to find 404 ```")
-
-await sleep(1000)
-
-citel.reply("```Divice successfully connected... \n Riciving data...```")
-
-await sleep(1000)
-
-citel.reply("```Data hyjacked from divice 100% completed \n killing all evidence killing all malwares...```")
-
-await sleep(1000)
-
-citel.reply("``` HACKING COMPLETED ```")
-
-await sleep(1000)
-
-citel.reply("``` SENDING LOG DOCUMENTS...```")
-
-await sleep(1000)
-
-citel.reply("``` SUCCESSFULLY SENT DATA AND Connection disconnected```")
-
-await sleep(1000)
-
-            return citel.reply('*BACKLOGS CLEARED*');
-
-        }
-
-    )
+zokou(
+  {
+    nomCom: "lol"
+    categorie: "Conversion" 
+     réaction: "😂"
+  },
+  async (dest, zk, commandeOptions) => {
+    const { ms, repondre } = 
+       commandeOptions;
+  
+   try {
+     repondre("LoL")
+     await sleep(1000)
+  
+  for (let i=0; i<=10; i++){
+    repondre("LOL encore" ${'⬜'.repeat(i)} ${(i*10)})
+      await sleep(1000);
+  }
+  repondre ("puis LOL");
+  await sleep(1000);
+ 
+ repondre("un autre LOL");
+ await sleep(1000);
+ 
+ repondre("reLOL");
+ await sleep (1000);
+ 
+ repondre ("un dernier LOL");
+ await sleep(1000);
+ 
+ repondre ("enfin LOL");
+ await sleep(1000);
+ 
+ repondre ("LOL enfin");
+ await sleep(1000);
+ 
+ repondre (".LOL");
+ await sleep(1000);
+ 
+ return repondre ('*BIG LOL*');
+   } catch (error) {
+     console.error('Une erreur est survenue:', error.message);
+     repondre("Une erreur est survenue");
+ 
+    }
+  }
+); function sleep(ms) {
+  return new promise ((resolve)=>
+  setTimeout(resolve, ms));
+  
+}
