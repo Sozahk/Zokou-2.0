@@ -1,9 +1,9 @@
 { zokou } = require('../framework/zokou');
 zokou(
   {
-    nomCom: "LoL"
-    categorie: "fun"
-    reaction: ""
+    nomCom: "Lol"
+    categorie: "Fun"
+    reaction: "🤣"
   },
   async (dest, zk, commandeOptions)=>{
     const {ms, repondre} = commandeOptions
