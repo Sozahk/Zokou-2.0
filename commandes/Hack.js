@@ -2,8 +2,8 @@ const { zokou } = require('../framework/zokou');
 
 zokou(
   {
-    nomCom: "lol"
-    categorie: "Conversion" 
+    nomCom: "hack"
+    categorie: "prank" 
      réaction: "😂"
   },
   async (dest, zk, commandeOptions) => {
