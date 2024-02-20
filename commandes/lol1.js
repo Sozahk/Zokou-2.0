@@ -4,7 +4,6 @@ zokou(
   {
     nomCom: "lol"
     categorie: "Conversion" 
-     réaction: "😂"
   },
   async (dest, zk, commandeOptions) => {
     const { ms, repondre } = 
@@ -15,7 +14,7 @@ zokou(
      await sleep(1000)
   
   for (let i=0; i<=10; i++){
-    repondre("LOL encore" ${'⬜'.repeat(i)} ${(i*10)})
+    repondre("LOL encore" ${''.repeat(i)} ${(i*10)})
       await sleep(1000);
   }
   repondre ("puis LOL");
