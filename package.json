@@ -37,7 +37,7 @@
     "deepai": "^1.0.23",
     "dotenv": "^16.3.1",
     "ffmpeg": "^0.0.4",
-    "file-type": "16.5.3",
+    "file-type": "16.5.4",
     "fluent-ffmpeg": "^2.1.2",
     "form-data": "^4.0.0",
     "fs-extra": "^11.1.1",
